@@ -20,3 +20,5 @@ const myDiv = <div><h1>Hello world</h1></div>
 //   nested element
   
 // a JSX expression must have exactly one outermost element. You can just wrap everything in a div
+
+ReactDOM.render(<h1>Render me!</h1>, document.getElementById('app'))
